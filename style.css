@@ -1,0 +1,49 @@
+
+body{
+
+	background-color: #FFCC73;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: #6A93D4;
+}
+
+.pic{
+	width: 198px;
+	height: 200px;
+	padding: 0;
+	border: 1px;
+	border-color: red;
+	border-style: solid;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: -3px;
+	position: relative;
+	
+}
+
+.picture{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-size: cover;
+	
+	
+}
+
+.picture:hover {
+	opacity: .50;
+	transform:rotate(360deg) scale(0,0) translateY(200%);
+	-ms-transform:rrotate(360deg) scale(0,0) translateY(200%); /* IE 9 */
+	-webkit-transform:rotate(360deg) scale(0,0) translateY(200%); /* Opera, Chrome, and Safari */
+	transition: all 1s ease;
+}
